@@ -1,0 +1,254 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.container-2{
+    padding-right: 1vw;
+}
+.hhhh{
+    margin-left: 3vw;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: 1fr 3fr 1fr ;   
+    gap: 1px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    margin: auto;
+    display: inline-block;
+    
+    
+
+}
+.nav-link{
+    font-size: clamp(1px 2.5vw 32px);
+    
+}
+#manubar{
+    padding-right: 7%;
+    
+    
+    
+}
+
+.card{
+    
+    
+    cursor: pointer;
+    display: block;
+    
+    margin: 3px;
+    justify-content: center;
+    
+    
+}
+.card-body{
+    width: 100%;
+    padding-top: 0%;
+    
+}
+.Max{
+    width: 100%;
+    
+   
+    
+}
+.box-head{
+   width: 100%;
+   display: block;
+   display: inline-block;
+   flex-wrap: wrap;
+}
+.card-img-top{
+    width: 100%;
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    flex-wrap: wrap;
+    
+    object-fit:cover ;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 18% 70% 5%;
+    gap: 5px;  
+    width: 100%;
+    
+}
+.kkk{
+    
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    display: inline-block; 
+    display: grid;
+    margin: auto;
+    gap: 10px;
+    
+    background-color: rgb(255, 255, 255);
+    
+    
+   
+
+  
+}
+#menu-1{
+    margin-top: 44%;
+    padding-bottom: 50px;
+    border: 1px solid #000000;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-rows: 50px auto auto  ;
+    gap: 10px;
+    display: inline-block;
+
+}
+#menu-box1{
+    
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: clamp(1px 2.5vw 32px);    
+    height: 50px;
+    padding-left: 1vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    
+    
+    justify-content: start;
+    align-items: center;
+}
+#menu-box2{
+    cursor: pointer;
+    font-size: clamp(1px 2.5vw 32px);  
+    padding-left: 1vw;
+    display: inline-block;
+    height: 50px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.head-conten{
+    
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    padding: 1vw;
+    justify-content: center;
+
+}
+#gggg{
+    
+    font-size: clamp(1px 2.5vw 50px);
+    
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+.mak{
+    margin: auto;
+    
+}
+.menu-box{
+    
+    margin: auto;
+    width: 100%;
+    color: #000000;
+    margin-top: 4rem;
+    margin-bottom: auto;
+    justify-content: center;
+    display: flex;
+    box-shadow: 100cap;
+    border: 2px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+    padding: 2%;
+
+
+}
+#08090{
+    font-size: small;
+    text-align: center;
+    display: flex;
+    margin: 0%;
+    
+
+    
+
+}
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+.item{
+    max-width: 200px;
+
+    width: 33.3;
+    
+    display: block;
+    box-sizing: border-box;
+
+}
+.nexbox{
+    
+    width: 30px;
+    height: 40px;
+    margin: 0px;   
+    text-align: center;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+.nex{
+    margin: auto;
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(255, 255, 255);
+    padding: 5vw;
+    
+    
+    
+
+}
+.bbb {
+    
+    display: block;
+    display: inline-block;
+    text-align: center;
+    
+   
+
+}
+.container-hoving {
+    cursor: pointer;
+    z-index: 0;
+    transform-origin: center;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.container-hoving:hover {
+    transform: scale(1.1, 1.1);
+}
